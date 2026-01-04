@@ -1954,7 +1954,7 @@ const App: React.FC = () => {
   );
 
   const renderIdle = () => (
-    <div className={`relative flex flex-col items-center justify-center h-full w-full text-center px-4 pb-32 overflow-hidden ${bgConfig.style !== 'gallery-collage' ? 'bg-gradient-to-br from-purple-900 via-pink-800 to-yellow-600' : ''}`}>
+    <div className={`relative flex flex-col items-center justify-center min-h-screen w-full text-center px-4 pb-32 ${bgConfig.style !== 'gallery-collage' ? 'bg-gradient-to-br from-purple-900 via-pink-800 to-yellow-600' : ''}`}>
       
       {/* Gallery Background Layer */}
       {bgConfig.style === 'gallery-collage' && renderGalleryBackground()}
