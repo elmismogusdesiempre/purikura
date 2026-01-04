@@ -1,0 +1,7 @@
+{
+  "name": "PuriKura Photo Booth",
+  "description": "Un divertido fotomatón para eventos (Kiosco) que crea tiras de fotos, permite personalización y subida a la nube (Google Drive) mediante códigos QR. [Versión: Release]",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
